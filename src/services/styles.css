@@ -1,0 +1,98 @@
+a.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0 5px;
+  float: right;
+  margin: 8px;
+  border: 1px solid black;
+}
+
+.homePageDiv {
+  /* margin-top: 18%; */
+  padding-top: 18%;
+  padding-left: 45%;
+
+  text-align: center;
+}
+.homePageDiv button {
+  margin-right: 15px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 200px;
+}
+.homePageDiv h1 {
+  margin-bottom: 2%;
+}
+.homePageDiv #doctorHomeBtn:hover {
+  background-color: rgb(236, 45, 45);
+}
+
+/* On mouse hover, change the background color of the button */
+.homePageDiv #patientHomeBtn:hover {
+  background-color: rgb(59, 245, 168);
+}
+
+.form-control {
+  width: 500px;
+}
+
+.login-form {
+  width: 650px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5% 6%;
+  text-align: center;
+  margin-left: 2%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.text-center {
+  padding-top: 2%;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  padding-top: 1.5%;
+}
+
+.doctorcard {
+  display: flex;
+}
+
+.form-check {
+  text-align: left;
+  padding: 5px;
+}
+.form-check label {
+  color: rgb(97, 94, 94);
+  padding: 0px;
+}
+
+.doctorlogin {
+  background-image: url("https://wallpaperbat.com/img/407398-doctor-wallpaper-top-free-doctor-background.jpg");
+}
+.patientlogin {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Medicine-Wallpapers-HD-For-Desktop.jpeg");
+}
+.homepage {
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2021/10/21/01/45/doctor-6727691_1280.png");
+}
+.doctorprofile {
+  /* padding-top: 14%;*/
+  /* margin-top: 10%; */
+  align-items: center;
+  text-align: center;
+}
+
+table th {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+table td {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
